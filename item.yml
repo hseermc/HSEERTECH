@@ -1,0 +1,60 @@
+HSEERTECH:
+  item_group: hseer_wupin
+  item:
+    name: "基础材料"
+    material: DIAMOND
+    amount: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: COBALT_INGOT
+      amount: 1
+    2:
+      material_type: slimefun
+      material: COBALT_INGOT
+      amount: 1
+    3:
+      material_type: slimefun
+      material: COBALT_INGOT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: NICKEL_INGOT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: COBALT_INGOT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: COBALT_INGOT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: COBALT_INGOT
+      amount: 1
+HSEERTECH_ZHONG:
+  item_group: hseer_wupin
+  item:
+    name: "中级材料"
+    material: DETECTOR_RAIL
+    amount: 1
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: mc
+      material: iron_ingot
+      amount: 1
+    2:
+      material_type: mc
+      material: iron_ingot
+      amount: 1
+    3:
+      material_type: mc
+      material: iron_ingot
+      amount: 1
+    4:
+      material_type: slimefun
+      

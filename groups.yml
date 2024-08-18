@@ -1,0 +1,53 @@
+hseertech:
+  type: nested
+  item:
+    name: '&b&lHSEERMC&a&l科技'
+    material: 'diamond_sword'
+    amount: 1
+hseer_wupin:
+  type: sub
+  item:
+    name: '&b材料'
+    material: 'copper_ingot'
+    amount: 1
+    lore:
+      - '&a使新版本原版物品更加有用'
+      - '&a让粘液科技变得更易于操作'
+  parent: hseertech
+hseer_jiqi:
+  type: sub
+  item:
+    name: '&b机器'
+    material: 'copper_grate'
+    amount: 1
+  parent: hseertech
+hseer_dianli:
+  type: sub
+  item:
+    name: '&b能源与电力'
+    material: 'trial_key'
+    amount: 1
+  parent: hseertech
+hseer_luanxv:
+  type: sub
+  item:
+    name: '无法合成的原版物品'
+    material: 'name_tag'
+    amount: 1
+  parent: hseertech
+hseer_gaoji:
+  type: sub
+  item:
+    name: '高级机器'
+    material: 'diamond_block'
+    amount: 1
+  parent: hseertech
+hseer_dianrong:
+  type: sub
+  item:
+    name: '发电机'
+    material: 'lightning_rod'
+    amount: 1
+  parent: hseertech
+
+
