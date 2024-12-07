@@ -1,0 +1,9 @@
+id: hseertechnology
+name: "赤石科技1.0RSC重写版"
+depends: []
+pluginDepends: []
+scriptListener: "script-listener"
+version: "1.0"
+description: "完整的RSC版附属&7(还不是因为不会写acontainer函数)"
+authors: ["HSEERMC腐竹"]
+repo: "hseermc/HSEERMC"
