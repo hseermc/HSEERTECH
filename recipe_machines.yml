@@ -1,0 +1,272 @@
+HSEER_ZHUANHUA_MACHINE:
+  item_group: hseer_jiqi
+  item:
+    name: "压磨机 &750J/t"
+    material: WHITE_STAINED_GLASS
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: AV_REINFORCED_ALLOY_INGOT
+    2:
+      material_type: slimefun
+      material: AV_REINFORCED_ALLOY_INGOT
+    3:
+      material_type: slimefun
+      material: AV_REINFORCED_ALLOY_INGOT
+    4:
+      material_type: slimefun
+      material: HSEER_JIKE
+    5:
+      material_type: slimefun
+      material: HSEER_HEXIN
+    6:
+      material_type: slimefun
+      material: HSEER_JIKE
+    7:
+      material_type: slimefun
+      material: HSEER_SHI_BAN
+    8:
+      material_type: slimefun
+      material: HSEER_SHI_BAN
+    9:
+      material_type: slimefun
+      material: HSEER_SHI_BAN
+  capacity: 500
+  input: [10,11]
+  output: [15,16]
+  energyPerCraft: 50
+  speed: 3
+  recipes:
+    shi_mo_fen:
+      seconds: 5
+      chooseOne: true
+      input:
+        1:
+          material_type: slimefun
+          material: HSEER_BIG_SHI_KUAI
+      output:
+        1:
+          material_type: slimefun
+          material: HSEER_SHI_ZHA
+          chance: 40
+        2:
+          material_type: slimefun
+          material: HSEER_SMALL_SHI_OIL
+          chance: 20
+        3:
+          material_type: slimefun
+          material: HSEER_SHI_FEN
+          chance: 40
+HSEER_RE_RONG_MACHINE:
+  item_group: hseer_jiqi
+  item:
+    name: "热融机 &750J/t"
+    material: MAGENTA_STAINED_GLASS
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: AV_REINFORCED_ALLOY_INGOT
+    2:
+      material_type: slimefun
+      material: AV_REINFORCED_ALLOY_INGOT
+    3:
+      material_type: slimefun
+      material: AV_REINFORCED_ALLOY_INGOT
+    4:
+      material_type: slimefun
+      material: HEATING_COIL
+    5:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    6:
+      material_type: slimefun
+      material: HEATING_COIL
+    7:
+      material_type: slimefun
+      material: HSEER_SHI_BAN
+    8:
+      material_type: slimefun
+      material: HSEER_SHI_BAN
+    9:
+      material_type: slimefun
+      material: HSEER_SHI_BAN
+  capacity: 500
+  input: [10,11]
+  output: [15,16]
+  energyPerCraft: 50
+  speed: 3
+  recipes:
+    shi_mo_fen:
+      seconds: 5
+      input:
+        1:
+          material_type: slimefun
+          material: HSEER_SHI_FEN
+      output:
+        1:
+          material_type: material
+          material: SMOOTH_STONE
+HSEER_SHI_AND_MAGIC_CRAFTABLE:
+  item_group: hseer_jiqi
+  item:
+    name: "石与魔法合成机 &750J/t"
+    material: WHITE_STAINED_GLASS
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HSEER_SHI_BAN
+    2:
+      material_type: slimefun 
+      material: HSEER_SHI_BAN
+    3:
+      material_type: slimefun
+      material: HSEER_SHI_BAN
+    4:
+      material_type: slimefun
+      material: ELECTRIC_SMELTERY
+    5:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    6:
+      material_type: slimefun
+      material: HSEER_HEXIN
+    7:
+      material_type: slimefun
+      material: HSEER_ITEM_BOX
+    8:
+      material_type: slimefun
+      material: HSEER_ITEM_BOX
+    9:
+      material_type: slimefun
+      material: HSEER_ITEM_BOX
+  capacity: 500
+  input: [10,11]
+  output: [15,16]
+  energyPerCraft: 50
+  speed: 10
+  recipes:
+    shi_and_magic:
+      seconds: 5
+      input:
+        1:
+          material_type: slimefun
+          material: HSEER_BIG_SHI
+        2:
+          material_type: slimefun
+          material: MAGIC_LUMP_3
+      output:
+        1:
+          material_type: material
+          material: HSEER_MAGIC_STONE
+HSEER_SHI_MAGIC_MACHINE:
+  item_group: hseer_jiqi
+  item:
+    name: "石与魔法加工机 &750J/t"
+    material: LIGHT_BLUE_STAINED_GLASS
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: REINFORCED_FURNACE
+    2:
+      material_type: slimefun
+      material: REINFORCED_FURNACE
+    3:
+      material_type: slimefun
+      material: REINFORCED_FURNACE
+    4:
+      material_type: slimefun
+      material: HEATING_COIL
+    5:
+      material_type: slimefun
+      material: HEATING_COIL
+    6:
+      material_type: slimefun
+      material: HEATING_COIL
+    7:
+      material_type: slimefun
+      material: HSEER_SHI_BAN
+    8:
+      material_type: slimefun
+      material: HSEER_SHI_BAN
+  capacity: 1000
+  input: [10,11]
+  output: [15,16]
+  energyPerCraft: 50
+  speed: 10
+  recipes:
+    shi_magic:
+      seconds: 5
+      input:
+        1:
+          material_type: slimefun
+          material: HSEER_MAGIC_STONE
+        2:
+          material_type: slimefun
+          material: HSEER_SHI_DING
+      output:
+        1:
+          material_type: material
+          material: HSEER_MAGIC_STONE_2
+        2:
+          material_type: material
+          material: HSEER_MAGIC_STONE_2
+HSEER_JIAOLU_MACHINE:
+  item_group: hseer_jiqi
+  item:
+    name: "电焦炉 &7200J/t"
+    material: FURNACE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HSEER_JIKE
+    2:
+      material_type: slimefun
+      material: HSEER_JIKE
+    3:
+      material_type: slimefun
+      material: HSEER_JIKE
+    4:
+      material_type: slimefun
+      material: HSEER_ITEM_BOX
+    5:
+      material_type: slimefun
+      material: HSEER_LIUTI_GUAN
+    6:
+      material_type: slimefun
+      material: HSEER_GUFENG_MACHINE
+    7:
+      material_type: slimefun
+      material: HSEER_SHI_BAN
+    8:
+      material_type: slimefun
+      material: HSEER_SHI_BAN
+    9:
+      material_type: slimefun
+      material: HSEER_SHI_BAN
+  capacity: 1000
+  input: [10,11]
+  output: [15,16]
+  energyPerCraft: 200
+  speed: 10
+  recipes:
+    jiaolu:
+      seconds: 5
+      input:
+        1:
+          material_type: slimefun
+          material: HSEER_MAGIC_STONE
+        2:
+          material_type: slimefun
+          material: HSEER_SHI_DING
+      output:
+        1:
+          material_type: slimefun
+          material: HSEER_MAGIC_DING
+
+
+
