@@ -1,12 +1,58 @@
 HSEERBI:
   item_group: hseer_zhuanshu
   item:
-    name: "&b&lH币"
-    material: DIAMOND
+    name: "&b&lH币(浅层石头)"
+    material: SUNFLOWER
   drop_from: STONE
-  drop_chance: 70
+  drop_chance: 40
   drop_amount: 1
   lore: "&a服务器的基础货币,可在系统商店回收"
+HSEERBI2:
+  item_group: hseer_zhuanshu
+  item:
+    name: "&b&lH币(深板岩)"
+    material: SUNFLOWER
+  drop_from: DEEPSLATE
+  drop_chance: 50
+  drop_amount: 1
+  lore: "&a服务器的基础货币,可在系统商店回收"
+HSEERBI3:
+  item_group: hseer_zhuanshu
+  item:
+    name: "&b&lH币(凝灰岩)"
+    material: SUNFLOWER
+  drop_from: TUFF
+  drop_chance: 60
+  drop_amount: 1
+  lore: "&a服务器的基础货币,可在系统商店回收"
+HSEERBI4:
+  item_group: hseer_zhuanshu
+  item:
+    name: "&b&lH币(花岗岩)"
+    material: SUNFLOWER
+  drop_from: GRANITE
+  drop_chance: 60
+  drop_amount: 1
+  lore: "&a服务器的基础货币,可在系统商店回收"
+HSEERBI5:
+  item_group: hseer_zhuanshu
+  item:
+    name: "&b&lH币(安山岩)"
+    material: SUNFLOWER
+  drop_from: ANDESITE
+  drop_chance: 60
+  drop_amount: 1
+  lore: "&a服务器的基础货币,可在系统商店回收"
+HSEERBI6:
+  item_group: hseer_zhuanshu
+  item:
+    name: "&b&lH币(闪长岩)"
+    material: SUNFLOWER
+  drop_from: DIORITE
+  drop_chance: 60
+  drop_amount: 1
+  lore: "&a服务器的基础货币,可在系统商店回收"
+
 HSEER_SHI:
   item_group: hseer_wupin
   item:
@@ -406,7 +452,7 @@ HSEER_JIKE:
   item_group: hseer_wupin
   item:
     name: "&b&l机壳"
-    material: GLASS
+    material: NOTE_BLOCK
   lore: "&b&l机 器 部 件,十分甚至100分的&c不坚硬???"
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
@@ -692,6 +738,292 @@ HSEER_MAGIC_DING:
     material: NETHER_BRICKS
   lore: "&b&l魔法的力量~ &a在电焦炉中用魔法石和石锭合成"
   placeable: false
+HSEER_LOUKONG_SHIKUAI:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 镂空的石块"
+    material: CHISELED_STONE_BRICKS
+  lore: "&b&l传输液体"
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HSEER_BIG_SHI_KUAI
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HSEER_BIG_SHI_KUAI
+      amount: 1
+    3:
+      material_type: slimefun
+      material: HSEER_BIG_SHI_KUAI
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HSEER_YOU_SHI
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HSEER_BIG_SHI_KUAI
+      amount: 1
+    7:
+      material_type: slimefun
+      material: HSEER_BIG_SHI_KUAI
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HSEER_BIG_SHI_KUAI
+      amount: 1
+    9:
+      material_type: slimefun
+      material: HSEER_BIG_SHI_KUAI
+      amount: 1
+HSEER_GERE_GUANDAO:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 隔热管道"
+    material: IRON_SWORD
+  lore: "&b&l防热防烫"
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HSEER_LOUKONG_SHIKUAI
+      amount: 1
+    2:
+      material_type: slimefun
+      material: HSEER_LOUKONG_SHIKUAI
+      amount: 1
+    3:
+      material_type: slimefun
+      material: HSEER_LOUKONG_SHIKUAI
+      amount: 1
+    4:
+      material_type: slimefun
+      material: HSEER_LOUKONG_SHIKUAI
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HSEER_LOUKONG_SHIKUAI
+      amount: 1
+    7:
+      material_type: slimefun
+      material: HSEER_LOUKONG_SHIKUAI
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HSEER_LOUKONG_SHIKUAI
+      amount: 1
+    9:
+      material_type: slimefun
+      material: HSEER_LOUKONG_SHIKUAI
+      amount: 1
+HSEER_SHI_DIANLUBAN:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 石电路板"
+    material: STONE
+  lore: "&b&l用来制造……?"
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGSTEEL_PLATE
+      amount: 1
+    2:
+      material_type: slimefun
+      material: MAGSTEEL_PLATE
+      amount: 1
+    3:
+      material_type: slimefun
+      material: MAGSTEEL_PLATE
+      amount: 1
+    4:
+      material_type: slimefun
+      material: SILICON
+      amount: 1
+    5:
+      material_type: slimefun
+      material: HSEER_MAGIC_STONE_2
+      amount: 1
+    6:
+      material_type: slimefun
+      material: HSEER_SHI_DING
+    7:
+      material_type: slimefun
+      material: HSEER_MAGIC_STONE_2
+      amount: 1
+    8:
+      material_type: slimefun
+      material: HSEER_SHI_JIKE
+      amount: 1
+    9:
+      material_type: slimefun
+      material: HSEER_SHI_JIKE
+      amount: 1
+HSEER_MAGIC_STONE_LIQUID:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 魔法石液体"
+    material: MILK_BUCKET
+  lore: "&b&l用来制造……?"
+  placeable: false
+HSEER_MAGIC_STONE_FEN:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 魔法石粉"
+    material: REDSTONE
+  lore: "&b&l用来制造粉末状的物体……?"
+  placeable: false
+HSEER_MAGIC_STONE_MOJV:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 魔法石磨具"
+    material: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+  lore: "&b&l用来制造粉末状的……?"
+  placeable: false
+HSEER_MAGIC_REMADE_BLOCK:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 魔法石重铸块"
+    material: RED_MUSHROOM_BLOCK
+  lore: "&b&l更可靠、更结实、更好用"
+  placeable: false
+HSEER_SHI_YUANZI:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 石原子"
+    material: OAK_BUTTON
+  lore: "&b&l徒手拆原子"
+  placeable: false
+HSEER_SHI_DIANZI:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 石电子"
+    material: BAMBOO_BUTTON
+  lore: "&b&l徒手拆电子"
+  placeable: false
+HSEER_SHUI_PRO:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 水元素pro"
+    material: AMETHYST_SHARD
+  lore: "&b&l"
+  placeable: false
+HSEER_HUO_PRO:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 火元素pro"
+    material: FIRE_CHARGE
+  lore: "&b&l"
+  placeable: false
+HSEER_TIE_PRO:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 铁元素pro"
+    material: IRON_INGOT
+  lore: "&b&l"
+  placeable: false
+HSEER_GUHUA_HUO_PRO:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 固化火元素pro"
+    material: CAMPFIRE
+  lore: "&b&l"
+  placeable: false
+HSEER_CLEAR_YOUSHI:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 澄清油石"
+    material: AMETHYST_BLOCK
+  lore: "&b&l"
+  placeable: false
+HSEER_DIRTY_YOUSHI:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 污浊油石"
+    material: COAL_BLOCK
+  lore: "&b&l"
+  placeable: false
+HSEER_YUANSUHUNHEWU:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 元素混合物"
+    material: WHITE_GLAZED_TERRACOTTA
+  lore: "&b&l"
+  placeable: false
+HSEER_YUANSHI:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 源石"
+    material: DIAMOND_BLOCK
+  lore: "&b&l"
+  placeable: false
+HSEER_BETTER_WUQI_CORE:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 更好的武器核心"
+    material: HEAVY_CORE
+  lore: "&b&lnice!"
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: CARBONADO_MULTI_TOOL
+    2:
+      material_type: slimefun
+      material: CARBONADO_MULTI_TOOL
+    3:
+      material_type: slimefun
+      material: CARBONADO_MULTI_TOOL
+    4:
+      material_type: slimefun
+      material: HSEER_BEST_MAGIC_STONE
+    5:
+      material_type: slimefun
+      material: HSEER_BEST_MAGIC_STONE
+    6:
+      material_type: slimefun
+      material: REFINED_IRON
+    7:
+      material_type: slimefun
+      material: REFINED_IRON
+    8:
+      material_type: slimefun
+      material: HSEER_SHI_JINGLIAN_DING
+    9:
+      material_type: slimefun
+      material: HSEER_YUANSHI
+HSEER_SHI_JINGLIAN_DING:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 精炼锭"
+    material: NETHERITE_INGOT
+  lore: "&b&l"
+  placeable: false
+HSEER_MAGIC_STONE_LIQUID_WITH_MOBAN:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 魔法石液体(带模版)"
+    material: WATER_BUCKET
+  lore: "&b&l"
+  placeable: false
+HSEER_BEST_MAGIC_STONE:
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 最佳魔法石"
+    material: FLOW_ARMOR_TRIM_SMITHING_TEMPLATE
+  lore: "&b&l万物之始2.0"
+  placeable: false
+
+
+
+
+
 
 
     

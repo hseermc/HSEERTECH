@@ -1,0 +1,30 @@
+HSEER_ZHUANHUA_MACHINE:
+  title: "&c压磨机"
+  import: AUTO_ENCHANTER
+HSEER_RE_RONG_MACHINE:
+  title: "&c热熔机"
+  import: AUTO_ENCHANTER
+HSEER_SHI_AND_MAGIC_CRAFTABLE:
+  title: "&c石与魔法合成机"
+  import: AUTO_ENCHANTER
+HSEER_SHI_MAGIC_MACHINE:
+  title: "&c石与魔法加工机"
+  import: AUTO_ENCHANTER
+HSEER_JIAOLU_MACHINE:
+  title: "&c焦炉"
+  import: AUTO_ENCHANTER
+HSEER_JINGLIAN_EVRYTHING:
+  title: "&c精炼机"
+  import: AUTO_ENCHANTER
+HSEER_FENSUI_MACHINE:
+  title: "&c粉碎机"
+  import: AUTO_ENCHANTER
+HSEER_JIAOZHU_MACHINE:
+  title: "&c浇筑机"
+  import: AUTO_ENCHANTER
+HSEER_TUOMO_MACHINE:
+  title: "&c脱模机"
+  import: AUTO_ENCHANTER
+HSEER_YUANSU_MAKING_MACHINE:
+  title: "&c元素合成机"
+  import: AUTO_ENCHANTER

@@ -7,13 +7,13 @@ HSEER_ZHUANHUA_MACHINE:
   recipe:
     1:
       material_type: slimefun
-      material: AV_REINFORCED_ALLOY_INGOT
+      material: REINFORCED_ALLOY_INGOT
     2:
       material_type: slimefun
-      material: AV_REINFORCED_ALLOY_INGOT
+      material: REINFORCED_ALLOY_INGOT
     3:
       material_type: slimefun
-      material: AV_REINFORCED_ALLOY_INGOT
+      material: REINFORCED_ALLOY_INGOT
     4:
       material_type: slimefun
       material: HSEER_JIKE
@@ -67,13 +67,13 @@ HSEER_RE_RONG_MACHINE:
   recipe:
     1:
       material_type: slimefun
-      material: AV_REINFORCED_ALLOY_INGOT
+      material: REINFORCED_ALLOY_INGOT
     2:
       material_type: slimefun
-      material: AV_REINFORCED_ALLOY_INGOT
+      material: REINFORCED_ALLOY_INGOT
     3:
       material_type: slimefun
-      material: AV_REINFORCED_ALLOY_INGOT
+      material: REINFORCED_ALLOY_INGOT
     4:
       material_type: slimefun
       material: HEATING_COIL
@@ -267,6 +267,273 @@ HSEER_JIAOLU_MACHINE:
         1:
           material_type: slimefun
           material: HSEER_MAGIC_DING
-
+HSEER_JINGLIAN_EVRYTHING:
+  item_group: hseer_jiqi
+  item:
+    name: "精炼机 &2000J/t"
+    material: FURNACE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HSEER_JIKE
+    2:
+      material_type: slimefun
+      material: HSEER_JIKE
+    3:
+      material_type: slimefun
+      material: HSEER_JIKE
+    4:
+      material_type: slimefun
+      material: HSEER_LIUTI_GUAN
+    5:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+    6:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    7:
+      material_type: slimefun
+      material: HEATING_COIL
+    8:
+      material_type: slimefun
+      material: REINFORCED_PLATE
+    9:
+      material_type: slimefun
+      material: LARGE_CAPACITOR
+  capacity: 5000
+  input: [10,11]
+  output: [15,16]
+  energyPerCraft: 2000
+  speed: 10
+  recipes:
+    jinglian:
+      seconds: 5
+      input:
+        1:
+          material_type: slimefun
+          material: HSEER_SHI_DING
+      output:
+        1:
+          material_type: slimefun
+          material: HSEER_SHI_JINGLIAN_DING
+HSEER_FENSUI_MACHINE:
+  item_group: hseer_jiqi
+  item:
+    name: "粉碎机 &200J/t"
+    material: BEACON
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HSEER_JIKE
+    2:
+      material_type: slimefun
+      material: HSEER_JIKE
+    3:
+      material_type: slimefun
+      material: HSEER_JIKE
+    4:
+      material_type: slimefun
+      material: DUST_EXTRACTOR
+    5:
+      material_type: slimefun
+      material: OUTPUT_CHEST
+    6:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    7:
+      material_type: slimefun
+      material: REINFORCED_ALLOY_INGOT
+    8:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+    9:
+      material_type: slimefun
+      material: REINFORCED_ALLOY_INGOT
+  capacity: 1000
+  input: [10,11]
+  output: [15,16]
+  energyPerCraft: 200
+  speed: 10
+  recipes:
+    fensui:
+      seconds: 5
+      input:
+        1:
+          material_type: slimefun
+          material: HSEER_MAGIC_STONE_2
+      output:
+        1:
+          material_type: slimefun
+          material: HSEER_MAGIC_STONE_FEN
+HSEER_JIAOZHU_MACHINE:
+  item_group: hseer_jiqi
+  item:
+    name: "浇筑机 &500J/t"
+    material: BARREL
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HSEER_JIKE
+    2:
+      material_type: slimefun
+      material: HSEER_LOUKONG_SHIKUAI
+    3:
+      material_type: slimefun
+      material: HSEER_JIKE
+    4:
+      material_type: slimefun
+      material: COOLING_UNIT
+    5:
+      material_type: slimefun
+      material: HSEER_LIUTI_GUAN
+    6:
+      material_type: slimefun
+      material: COOLING_UNIT
+    7:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    8:
+      material_type: slimefun
+      material: ADVANCED_CIRCUIT_BOARD
+    9:
+      material_type: slimefun
+      material: OUTPUT_CHEST
+  capacity: 1000
+  input: [10,11]
+  output: [15,16]
+  energyPerCraft: 500
+  speed: 10
+  recipes:
+    jiaozhu:
+      seconds: 5
+      input:
+        1:
+          material_type: slimefun
+          material: HSEER_MAGIC_STONE_FEN
+        2:
+          material_type: slimefun
+          material: HSEER_MAGIC_STONE_MOJV
+      output:
+        1:
+          material_type: slimefun
+          material: HSEER_MAGIC_STONE_LIQUID_WITH_MOBAN
+    jiaozhu2:
+      seconds: 5
+      input:
+        1:
+          material_type: slimefun
+          material: HSEER_MAGIC_STONE_LIQUID
+      output:
+        1:
+          material_type: slimefun
+          material: HSEER_BEST_MAGIC_STONE
+HSEER_TUOMO_MACHINE:
+  item_group: hseer_jiqi
+  item:
+    name: "脱模机 &200J/t"
+    material: SMITHING_TABLE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HSEER_JIKE
+    2:
+      material_type: slimefun
+      material: HSEER_JIKE
+    3:
+      material_type: slimefun
+      material: HSEER_LIUTI_GUAN
+    4:
+      material_type: slimefun
+      material: OUTPUT_CHEST
+    6:
+      material_type: slimefun
+      material: ELECTRIC_MOTOR
+    7:
+      material_type: slimefun
+      material: HEATING_COIL
+    8:
+      material_type: slimefun
+      material: HEATING_COIL
+    9:
+      material_type: slimefun
+      material: HEATING_COIL
+  capacity: 1000
+  input: [10,11]
+  output: [15,16]
+  energyPerCraft: 200
+  speed: 10
+  recipes:
+    tuomo:
+      seconds: 5
+      input:
+        1:
+          material_type: slimefun
+          material: HSEER_MAGIC_STONE_LIQUID_WITH_MOBAN
+        2:
+          material_type: slimefun
+          material: HSEER_SHI_FEN
+      output:
+        1:
+          material_type: slimefun
+          material: HSEER_MAGIC_STONE_LIQUID
+HSEER_YUANSU_MAKING_MACHINE:
+  item_group: hseer_jiqi
+  item:
+    name: "元素合成机 &321J/t"
+    material: ENCHANTING_TABLE
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: HSEER_JIKE
+    2:
+      material_type: slimefun
+      material: BIG_CAPACITOR
+    3:
+      material_type: slimefun
+      material: HSEER_JIKE
+    4:
+      material_type: slimefun
+      material: OUTPUT_CHEST
+    5:
+      material_type: slimefun
+      material: MAGIC_LUMP_3
+      amount: 64
+    6:
+      material_type: slimefun
+      material: MAGIC_LUMP_3
+      amount: 64
+    7:
+      material_type: slimefun
+      material: HEATING_COIL
+    8:
+      material_type: slimefun
+      material: HEATED_PRESSURE_CHAMBER_2
+    9:
+      material_type: slimefun
+      material: HEATING_COIL
+  capacity: 1000
+  input: [10,11]
+  output: [15,16]
+  energyPerCraft: 321
+  speed: 10
+  recipes:
+    yuansu:
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: HSEER_BIG_SHI_KUAI
+        2:
+          material_type: mc
+          material: WATER_BUCKET
+      output:
+        1:
+          material_type: slimefun
+          material: HSEER_BETTER_WUQI_CORE
 
 
