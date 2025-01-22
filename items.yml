@@ -1,64 +1,10 @@
-HSEERBI:
-  item_group: hseer_zhuanshu
-  item:
-    name: "&b&lH币(浅层石头)"
-    material: SUNFLOWER
-  drop_from: STONE
-  drop_chance: 40
-  drop_amount: 1
-  lore: "&a服务器的基础货币,可在系统商店回收"
-HSEERBI2:
-  item_group: hseer_zhuanshu
-  item:
-    name: "&b&lH币(深板岩)"
-    material: SUNFLOWER
-  drop_from: DEEPSLATE
-  drop_chance: 50
-  drop_amount: 1
-  lore: "&a服务器的基础货币,可在系统商店回收"
-HSEERBI3:
-  item_group: hseer_zhuanshu
-  item:
-    name: "&b&lH币(凝灰岩)"
-    material: SUNFLOWER
-  drop_from: TUFF
-  drop_chance: 60
-  drop_amount: 1
-  lore: "&a服务器的基础货币,可在系统商店回收"
-HSEERBI4:
-  item_group: hseer_zhuanshu
-  item:
-    name: "&b&lH币(花岗岩)"
-    material: SUNFLOWER
-  drop_from: GRANITE
-  drop_chance: 60
-  drop_amount: 1
-  lore: "&a服务器的基础货币,可在系统商店回收"
-HSEERBI5:
-  item_group: hseer_zhuanshu
-  item:
-    name: "&b&lH币(安山岩)"
-    material: SUNFLOWER
-  drop_from: ANDESITE
-  drop_chance: 60
-  drop_amount: 1
-  lore: "&a服务器的基础货币,可在系统商店回收"
-HSEERBI6:
-  item_group: hseer_zhuanshu
-  item:
-    name: "&b&lH币(闪长岩)"
-    material: SUNFLOWER
-  drop_from: DIORITE
-  drop_chance: 60
-  drop_amount: 1
-  lore: "&a服务器的基础货币,可在系统商店回收"
 
 HSEER_SHI:
   item_group: hseer_wupin
   item:
     name: "&b&l石"
     material: STONE
-  lore: "&b&l和石一样?"
+    lore: "&b&l和石一样?"
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -94,7 +40,7 @@ HSEER_SMALL_SHI:
   item:
     name: "&b&l小石"
     material: STONE_BUTTON
-  lore: "&b&l和石一样?"
+    lore: "&b&l和石一样?"
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -139,7 +85,7 @@ HSEER_MIDDLE_SHI:
   item:
     name: "&b&l中石"
     material: SMOOTH_STONE
-  lore: "&b&l真的和石一样吗?"
+    lore: "&b&l真的和石一样吗?"
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -184,7 +130,7 @@ HSEER_BIG_SHI:
   item:
     name: "&b&l大石"
     material: STONE
-  lore: "&b&l大  不  相  同"
+    lore: "&b&l大  不  相  同"
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -229,7 +175,7 @@ HSEER_SHI_DING:
   item:
     name: "&b&l石锭"
     material: NETHERITE_INGOT
-  lore: "&b&l不  是  锭  吗 ?"
+    lore: "&b&l不  是  锭  吗 ?"
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
     1:
@@ -273,7 +219,7 @@ HSEER_SHI_KUAI:
   item:
     name: "&b&l石块"
     material: STONE
-  lore: "&b&l不  是  块  吗 ?"
+    lore: "&b&l不  是  块  吗 ?"
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -318,7 +264,7 @@ HSEER_BIG_SHI_KUAI:
   item:
     name: "&b&l大石块"
     material: REDSTONE_BLOCK
-  lore: "&b&l太  大  了 ...."
+    lore: "&b&l太  大  了 ...."
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -363,7 +309,7 @@ HSEER_SHI_BAN:
   item:
     name: "&b&l石板"
     material: STONE_PRESSURE_PLATE
-  lore: "&b&l机 器 底 座"
+    lore: "&b&l机 器 底 座"
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -408,7 +354,7 @@ HSEER_SHI_MADA:
   item:
     name: "&b&l石马达"
     material: REDSTONE_LAMP
-  lore: "&b&l机 器 部 件"
+    lore: "&b&l机 器 部 件"
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -453,7 +399,7 @@ HSEER_JIKE:
   item:
     name: "&b&l机壳"
     material: NOTE_BLOCK
-  lore: "&b&l机 器 部 件,十分甚至100分的&c不坚硬???"
+    lore: "&b&l机 器 部 件,十分甚至100分的&c不坚硬???"
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -498,7 +444,7 @@ HSEER_HEXIN:
   item:
     name: "&b&l机器核心"
     material: REDSTONE_TORCH
-  lore: "&b机 器 部 件"
+    lore: "&b机 器 部 件"
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -543,14 +489,14 @@ HSEER_SHI_FEN:
   item:
     name: "&b&l石粉"
     material: GUNPOWDER
-  lore: "&b粉碎机粉碎粉碎机那么粉碎机能被粉碎机粉碎吗?"
+    lore: "&b粉碎机粉碎粉碎机那么粉碎机能被粉碎机粉碎吗?"
   placeable: false
 HSEER_SHI_OIL:
   item_group: hseer_wupin
   item:
     name: "&b&l石油"
     material: WATER_BUCKET
-  lore: "&b&l在石头里面压榨出的少许油物集合而成"
+    lore: "&b&l在石头里面压榨出的少许油物集合而成"
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -595,28 +541,28 @@ HSEER_YOU_SHI:
   item:
     name: "&b&l油石"
     material: NETHER_BRICKS
-  lore: "&b&l不是石油,也不是石头,是油石!"
+    lore: "&b&l不是石油,也不是石头,是油石!"
   placeable: false
 HSEER_SMALL_SHI_OIL:
   item_group: hseer_wupin
   item:
     name: "&b&l一小桶石油"
     material: WATER_BUCKET
-  lore: "&b&l在石头里面压榨出的少许油物"
+    lore: "&b&l在石头里面压榨出的少许油物"
   placeable: false
 HSEER_SHI_ZHA:
   item_group: hseer_wupin
   item:
     name: "&b&l石渣"
     material: NETHER_BRICKS
-  lore: "&b&l石头渣子,碎的很咧!"
+    lore: "&b&l石头渣子,碎的很咧!"
   placeable: false
 HSEER_ITEM_BOX:
   item_group: hseer_wupin
   item:
     name: "&b&l物品箱"
     material: CHEST
-  lore: "&b用来存放物品的地方,供机器合成"
+    lore: "&b用来存放物品的地方,供机器合成"
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -660,14 +606,14 @@ HSEER_MAGIC_STONE:
   item:
     name: "&b&l魔法石"
     material: NETHER_BRICKS
-  lore: "&bmi mi ma ma mo mi ma mi mi ma ma mo~"
+    lore: "&bmi mi ma ma mo mi ma mi mi ma ma mo~"
   placeable: false
 HSEER_LIUTI_GUAN:
   item_group: hseer_wupin
   item:
     name: "&b&l流体罐"
     material: HEAVY_CORE
-  lore: "&b&l存储液体副产物"
+    lore: "&b&l存储液体副产物"
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -707,7 +653,7 @@ HSEER_GUFENG_MACHINE:
   item:
     name: "&b&l鼓风机"
     material: NETHER_BRICKS
-  lore: "&b&l用来鼓风,加速熔炼"
+    lore: "&b&l用来鼓风,加速熔炼"
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -736,14 +682,14 @@ HSEER_MAGIC_DING:
   item:
     name: "&b&l魔法锭"
     material: NETHER_BRICKS
-  lore: "&b&l魔法的力量~ &a在电焦炉中用魔法石和石锭合成"
+    lore: "&b&l魔法的力量~ &a在电焦炉中用魔法石和石锭合成"
   placeable: false
 HSEER_LOUKONG_SHIKUAI:
   item_group: hseer_wupin
   item:
     name: "&b&l 镂空的石块"
     material: CHISELED_STONE_BRICKS
-  lore: "&b&l传输液体"
+    lore: "&b&l传输液体"
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -784,7 +730,7 @@ HSEER_GERE_GUANDAO:
   item:
     name: "&b&l 隔热管道"
     material: IRON_SWORD
-  lore: "&b&l防热防烫"
+    lore: "&b&l防热防烫"
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -825,7 +771,7 @@ HSEER_SHI_DIANLUBAN:
   item:
     name: "&b&l 石电路板"
     material: STONE
-  lore: "&b&l用来制造……?"
+    lore: "&b&l用来制造……?"
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -869,105 +815,105 @@ HSEER_MAGIC_STONE_LIQUID:
   item:
     name: "&b&l 魔法石液体"
     material: MILK_BUCKET
-  lore: "&b&l用来制造……?"
+    lore: "&b&l用来制造……?"
   placeable: false
 HSEER_MAGIC_STONE_FEN:
   item_group: hseer_wupin
   item:
     name: "&b&l 魔法石粉"
     material: REDSTONE
-  lore: "&b&l用来制造粉末状的物体……?"
+    lore: "&b&l用来制造粉末状的物体……?"
   placeable: false
 HSEER_MAGIC_STONE_MOJV:
   item_group: hseer_wupin
   item:
     name: "&b&l 魔法石磨具"
     material: NETHERITE_UPGRADE_SMITHING_TEMPLATE
-  lore: "&b&l用来制造粉末状的……?"
+    lore: "&b&l用来制造粉末状的……?"
   placeable: false
 HSEER_MAGIC_REMADE_BLOCK:
   item_group: hseer_wupin
   item:
     name: "&b&l 魔法石重铸块"
     material: RED_MUSHROOM_BLOCK
-  lore: "&b&l更可靠、更结实、更好用"
+    lore: "&b&l更可靠、更结实、更好用"
   placeable: false
 HSEER_SHI_YUANZI:
   item_group: hseer_wupin
   item:
     name: "&b&l 石原子"
     material: OAK_BUTTON
-  lore: "&b&l徒手拆原子"
+    lore: "&b&l徒手拆原子"
   placeable: false
 HSEER_SHI_DIANZI:
   item_group: hseer_wupin
   item:
     name: "&b&l 石电子"
     material: BAMBOO_BUTTON
-  lore: "&b&l徒手拆电子"
+    lore: "&b&l徒手拆电子"
   placeable: false
 HSEER_SHUI_PRO:
   item_group: hseer_wupin
   item:
     name: "&b&l 水元素pro"
     material: AMETHYST_SHARD
-  lore: "&b&l"
+    lore: "&b&l"
   placeable: false
 HSEER_HUO_PRO:
   item_group: hseer_wupin
   item:
     name: "&b&l 火元素pro"
     material: FIRE_CHARGE
-  lore: "&b&l"
+    lore: "&b&l"
   placeable: false
 HSEER_TIE_PRO:
   item_group: hseer_wupin
   item:
     name: "&b&l 铁元素pro"
     material: IRON_INGOT
-  lore: "&b&l"
+    lore: "&b&l"
   placeable: false
 HSEER_GUHUA_HUO_PRO:
   item_group: hseer_wupin
   item:
     name: "&b&l 固化火元素pro"
     material: CAMPFIRE
-  lore: "&b&l"
+    lore: "&b&l"
   placeable: false
 HSEER_CLEAR_YOUSHI:
   item_group: hseer_wupin
   item:
     name: "&b&l 澄清油石"
     material: AMETHYST_BLOCK
-  lore: "&b&l"
+    lore: "&b&l"
   placeable: false
 HSEER_DIRTY_YOUSHI:
   item_group: hseer_wupin
   item:
     name: "&b&l 污浊油石"
     material: COAL_BLOCK
-  lore: "&b&l"
+    lore: "&b&l"
   placeable: false
 HSEER_YUANSUHUNHEWU:
   item_group: hseer_wupin
   item:
     name: "&b&l 元素混合物"
     material: WHITE_GLAZED_TERRACOTTA
-  lore: "&b&l"
+    lore: "&b&l"
   placeable: false
 HSEER_YUANSHI:
   item_group: hseer_wupin
   item:
     name: "&b&l 源石"
     material: DIAMOND_BLOCK
-  lore: "&b&l"
+    lore: "&b&l"
   placeable: false
 HSEER_BETTER_WUQI_CORE:
   item_group: hseer_wupin
   item:
     name: "&b&l 更好的武器核心"
     material: HEAVY_CORE
-  lore: "&b&lnice!"
+    lore: "&b&lnice!"
   placeable: false
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -1003,24 +949,32 @@ HSEER_SHI_JINGLIAN_DING:
   item:
     name: "&b&l 精炼锭"
     material: NETHERITE_INGOT
-  lore: "&b&l"
+    lore: "&b&l"
   placeable: false
 HSEER_MAGIC_STONE_LIQUID_WITH_MOBAN:
   item_group: hseer_wupin
   item:
     name: "&b&l 魔法石液体(带模版)"
     material: WATER_BUCKET
-  lore: "&b&l"
+    lore: "&b&l"
   placeable: false
 HSEER_BEST_MAGIC_STONE:
   item_group: hseer_wupin
   item:
     name: "&b&l 最佳魔法石"
     material: FLOW_ARMOR_TRIM_SMITHING_TEMPLATE
-  lore: "&b&l万物之始2.0"
+    lore: "&b&l万物之始2.0"
+  
   placeable: false
+HSEER_GANGGUAN:
 
-
+  item_group: hseer_wupin
+  item:
+    name: "&b&l 钢管"
+    material: STICK
+    lore: "&b&l右键使其落地"
+  placeable: false
+  script: gangguan
 
 
 
